@@ -77,3 +77,7 @@ img, .youtube {
 .quiz {
   margin-left: 50px;
 }
+
+.text {
+    float: left;
+}

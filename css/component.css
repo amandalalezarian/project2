@@ -94,19 +94,20 @@
 }
 
 /*my css*/
+
 .images {
 	float: left;
 	padding-left: 50px;
 }
 
 #plate {
-	height: 600px;
-	width: 700px;
+	height: 100px;
+	width: 100px;
 }
 
 #stretch {
 	height: 500px;
-	width: 600px;
+	width: 400px;
 }
 
 .header {
@@ -128,3 +129,67 @@ p {
 h3 {
 	float: left;
 }
+
+.quiz {
+	height: 400px;
+	overflow-y: scroll;
+}
+
+
+/*.quiz > li .title{
+	border:1px solid pink;
+	color:pink;
+}*/
+
+.quiz > .question_container{
+	display: block;
+	float: none;
+	min-height:110px;
+}
+
+/*media query*/
+
+/*------------laptops-----------*/
+@media screen
+  and (min-device-width: 1200px)
+  and (max-device-width: 1600px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+		.ch-item {
+		margin-left: 465px;
+}
+
+}
+
+/* ----------- iPad mini ----------- */
+/* Landscape */
+@media only screen
+  and (min-device-width: 1000px)
+  and (max-device-width: 1199px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 1) {
+		.ch-item {
+		margin-left: 370px;
+}
+
+}
+
+
+/*@media screen and (max-width: 661px) {
+    .ch-item {
+			margin-left: 250px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .ch-item {
+			margin-left: 465px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .ch-item {
+			margin-left: 465px;
+    }
+}
+
+*/

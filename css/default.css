@@ -72,9 +72,14 @@ a:hover {
 .container > header span {
 	display: block;
 	font-weight: 700;
+	float: left;
 	text-transform: uppercase;
 	letter-spacing: 0.5em;
 	padding: 0 0 0.6em 0.1em;
+}
+
+.header {
+	float: left;
 }
 
 .container > header nav {
@@ -115,7 +120,7 @@ a:hover {
 	background: #47a3da;
 }
 
-.icon-drop:before, 
+.icon-drop:before,
 .icon-arrow-left:before {
 	font-family: 'fontawesome';
 	position: absolute;
@@ -144,4 +149,3 @@ a:hover {
 .icon-arrow-left:before {
 	content: "\f060";
 }
-
