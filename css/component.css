@@ -41,7 +41,7 @@
 	top: 50%;
 	width: 50px;
 	height: 100px;
-	background: #f9af99;
+	background: #fd4b4f;
 	color: #fff;
 	font-size: 50px;
 	text-align: center;
@@ -86,14 +86,31 @@
 }
 
 .cbp-fwdots span.cbp-fwcurrent {
-	background: #f9af99;
-	box-shadow: 0 0 0 2px #f9af99;
+	background: #fd4b4f;
+	box-shadow: 0 0 0 2px #fd4b4f;
 	-webkit-transition: box-shadow 0.2s ease-in-out;
 	-moz-transition: box-shadow 0.2s ease-in-out;
 	transition: box-shadow 0.2s ease-in-out;
 }
 
 /*my css*/
+
+.background {
+	background-color: #bfc8cc;
+}
+
+.header {
+	font-family: 'Ribeye', cursive;
+	font-size: 20px;
+	color: #14042a;
+}
+
+.tag {
+	font-family: 'Open Sans', sans-serif;
+	text-shadow: none;
+	font-size: 15px;
+	color: #fd4b4f;
+}
 
 .images {
 	float: left;
@@ -110,24 +127,30 @@
 	width: 400px;
 }
 
-.header {
-	color: #3c5683;
-}
-
-.tag {
-color: #abe255;
-}
-
 h1 {
 	color: #3c5683;
 }
 
 p {
-	color: #abe255;
+	color: #fd4b4f;
+}
+
+.quote {
+	font-family: 'Open Sans', sans-serif;
+	font-style: italic;
+}
+
+.steps {
+	font-family: 'Ribeye', cursive;
+	color: #14042a;
 }
 
 h3 {
 	float: left;
+}
+
+.info-text {
+	color: #fd4b4f;
 }
 
 .quiz {
@@ -149,47 +172,42 @@ h3 {
 
 /*media query*/
 
-/*------------laptops-----------*/
-@media screen
-  and (min-device-width: 1200px)
-  and (max-device-width: 1600px)
-  and (-webkit-min-device-pixel-ratio: 1) {
-		.ch-item {
-		margin-left: 465px;
+@media (max-width: 400px) {
+       /* rules for mobile horizontal (480 > 768)  */
+			 .ch-item{
+				 margin-left: 78px;
+			 }
 }
 
+@media (min-width: 480px) {
+       /* rules for mobile horizontal (480 > 768)  */
+			 .ch-item{
+				 margin-left: 110px;
+			 }
 }
 
-/* ----------- iPad mini ----------- */
-/* Landscape */
-@media only screen
-  and (min-device-width: 1000px)
-  and (max-device-width: 1199px)
-  and (orientation: landscape)
-  and (-webkit-min-device-pixel-ratio: 1) {
-		.ch-item {
-		margin-left: 370px;
+@media (min-width: 500px) {
+	 /* rules for tablet (768 > 992) */
+	 .ch-item{
+			margin-left: 200px;
+	 }
 }
 
+    @media (min-width: 763px) {
+       /* rules for tablet (768 > 992) */
+			 .ch-item{
+				 	 margin-left: 250px;
+			 }
 }
-
-
-/*@media screen and (max-width: 661px) {
-    .ch-item {
-			margin-left: 250px;
+    @media (min-width: 992px) {
+       /* rules for desktop (992 > 1200) */
+			 .ch-item{
+				 margin-left: 356px;
+			 }
+}
+    @media (min-width: 1200px) {
+       /* rules for large (> 1200) */
+			 .ch-item{
+				 margin-left: 458px;
+			 }
     }
-}
-
-@media screen and (min-width: 1200px) {
-    .ch-item {
-			margin-left: 465px;
-    }
-}
-
-@media screen and (min-width: 1200px) {
-    .ch-item {
-			margin-left: 465px;
-    }
-}
-
-*/
