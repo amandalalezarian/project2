@@ -3,6 +3,7 @@
 	height: 100%;
 	border-radius: 50%;
 	position: absolute;
+	border-bottom: 10px;
 	/*margin-left: 356px;*/
 	cursor: default;
 	box-shadow:
@@ -53,6 +54,11 @@
 
 .ch-img-7 {
 	background-image: url(../images/sleep.png);
+	background-repeat: no-repeat;
+}
+
+.ch-img-8 {
+	background-image: url(../images/playbook.png);
 	background-repeat: no-repeat;
 }
 
@@ -120,14 +126,14 @@
 }
 
 .ch-info p a:hover {
-	color: #fff222;
-	color: rgba(255,242,34, 0.8);
+	color: #14042a;
+	color: rgba(20,4,42,.8);
 	text-align: center;
 }
 
 .ch-item:hover {
 	box-shadow:
-		inset 0 0 0 110px rgba(200,95,66, 0.4),
+		inset 0 0 0 110px rgba(20,4,42,.8);
 		inset 0 0 0 16px rgba(255,255,255,0.8),
 		0 1px 2px rgba(0,0,0,0.1);
 }

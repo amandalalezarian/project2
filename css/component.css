@@ -41,7 +41,7 @@
 	top: 50%;
 	width: 50px;
 	height: 100px;
-	color: #fd4b4f;
+	color: #f2e7ed;
 	font-size: 50px;
 	text-align: center;
 	margin-top: -50px;
@@ -51,7 +51,7 @@
 }
 
 .cbp-fwslider nav span:hover {
-	color: #f2e7ed;
+	color: #fd4b4f;
 }
 
 .cbp-fwslider nav span.cbp-fwnext {
@@ -109,6 +109,7 @@
 	text-shadow: none;
 	font-size: 15px;
 	color: #fd4b4f;
+	float: left;
 }
 
 .images {
@@ -132,6 +133,7 @@ h1 {
 
 p {
 	color: #fd4b4f;
+	font-weight: bolder;
 }
 
 .quote {
@@ -156,7 +158,6 @@ h3 {
 	height: 400px;
 	overflow-y: scroll;
 }
-
 
 /*.quiz > li .title{
 	border:1px solid pink;
